@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #signup-page, #profile-page {
+    display: none;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #signup-form input, #signup-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #signup-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  
+  #signup-message {
+    color: green;
+  }
+  
+  #error-message {
+    color: red;
+  }
+  
+  #profile-page p {
+    margin-bottom: 10px;
+  }
+  
+  #logout-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  
+  #logout-btn:hover {
+    background-color: #c62828;
+    cursor: pointer;
+  }
+  
